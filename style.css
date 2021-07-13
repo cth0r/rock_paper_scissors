@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #2c2b31;
+}
+
+header {
+    background-color: white;
+    padding: 3rem;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(46, 46, 46);
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#scoreboard #user-score {
+    margin: 0 0 0 1.5rem;
+}
+
+#scoreboard #computer-score {
+    margin: 0 1.5rem 0 0;    
+}
+
+#scoreboard #user-name, #computer-name {
+    font-weight: 300;
+}
+
+.result {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    color: #424242;
+}
+
+.choice {
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
